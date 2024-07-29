@@ -4,7 +4,9 @@
         "outDir": "build",
         "target": "ES6",
         "lib": ["ES6","DOM"],
+        "moduleResolution": "node",
         "strict": true,
-        "allowJs": true
+        "noEmitOnError": true,
+        "esModuleInterop": true
     }
 }
